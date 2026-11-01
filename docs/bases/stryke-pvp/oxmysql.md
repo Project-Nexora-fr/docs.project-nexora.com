@@ -1,7 +1,5 @@
 # oxmysql
 
-![Icône dépendances](/img/icon-deps.png)
-
 Driver MySQL pour FiveM. **Obligatoire** avant `stryke_pvp`.
 
 ## Emplacement

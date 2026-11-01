@@ -1,10 +1,18 @@
 # Installation complète — base STRYKE PvP
 
-![Icône installation](/img/icon-install.png)
-
-![Schéma d’installation](/img/install-flow.png)
-
 Guide bout-en-bout pour la base **FiveMBasicServerCFXDefault** (Project Nexora / STRYKE) : toutes les resources assurées dans `server.cfg`.
+
+## Flux de démarrage
+
+| Étape | Resources | Rôle |
+|------:|-----------|------|
+| 1 | `chat` → `spawnmanager` | Socle CFX |
+| 2 | `bob74_ipl` | Intérieurs / IPL |
+| 3 | `oxmysql` | MySQL (avant tout script SQL) |
+| 4 | `ensure [script]` | `stryke_loadingscreen`, `stryke_pvp`, `rpemotes-reborn` |
+| 5 | `ensure [assets]` | véhicules, weapon metas, ymap, arme custom |
+
+Détail des convars et ACE : [server.cfg](./server-cfg).
 
 ## Prérequis
 
@@ -33,26 +41,18 @@ Guide bout-en-bout pour la base **FiveMBasicServerCFXDefault** (Project Nexora /
       weapon_ka_pn_diamant/
 ```
 
-## Ordre de démarrage (recommandé)
+## Ordre dans server.cfg
 
 ```ini
 ensure chat
 ensure spawnmanager
 ensure bob74_ipl
 ensure oxmysql
-ensure [script]          # loadingscreen, stryke_pvp, rpemotes…
-ensure stryke_pvp        # explicite si besoin
+ensure [script]
+ensure stryke_pvp
 ensure rpemotes-reborn
-ensure [assets]          # véhicules, metas, ymap, armes custom
+ensure [assets]
 ```
-
-1. **chat** + **spawnmanager** — socle CFX  
-2. **bob74_ipl** — IPLs intérieurs  
-3. **oxmysql** — BDD avant toute resource SQL  
-4. **[script]** — loadingscreen + `stryke_pvp` + emotes  
-5. **[assets]** — stream véhicules / armes / maps  
-
-Détail des convars et ACE : [server.cfg](./server-cfg).
 
 ## MySQL
 

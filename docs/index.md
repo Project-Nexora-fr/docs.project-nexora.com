@@ -5,9 +5,6 @@ hero:
   name: Project Nexora
   text: Base STRYKE PvP
   tagline: Documentation complète — installation, server.cfg, toutes les resources du pack.
-  image:
-    src: /img/hero-stryke-pvp.png
-    alt: STRYKE PvP
   actions:
     - theme: brand
       text: Doc stryke_pvp

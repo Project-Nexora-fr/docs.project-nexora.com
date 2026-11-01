@@ -1,6 +1,6 @@
 # stryke_pvp
 
-![Bannière STRYKE PvP](/img/hero-stryke-pvp.png)
+![Bannière STRYKE PvP](/img/banner-connecting-stryke.png)
 
 Base **freeroam PvP** Project Nexora : zones safe / AFK / PvP / loot, KOTH, events, VIP, battle pass, mini-jeux, menu F1, connexion (queue / allowlist).
 

@@ -23,3 +23,38 @@
 .VPFeature {
   border-radius: 10px;
 }
+
+/* Bannières doc : pas de PNG 1024×1024 géant */
+.vp-doc img {
+  border-radius: 10px;
+  border: 1px solid var(--vp-c-divider);
+  background: #141414;
+}
+
+.vp-doc p > img {
+  display: block;
+  max-width: 100%;
+  margin: 1rem 0 1.5rem;
+}
+
+.vp-doc img[src*='/img/icon-'] {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0.5rem 0 1rem;
+}
+
+.vp-doc img[src*='/img/banner-'],
+.vp-doc img[src*='/img/hero-'] {
+  width: 100%;
+  max-height: 240px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.vp-doc img[src*='banner-detail-stryke'] {
+  max-height: 120px;
+  object-fit: contain;
+  background: #0a0a0a;
+}
