@@ -10,7 +10,7 @@ resources/[script]/stryke_pvp/
 
 ## 2. server.cfg
 
-```cfg
+```ini
 ensure oxmysql
 ensure stryke_pvp
 
@@ -26,7 +26,7 @@ Assure-toi qu’oxmysql pointe vers ta BDD. Au premier lancement, les tables jou
 
 ## 4. Permissions admin
 
-```cfg
+```ini
 add_ace group.admin stryke_pvp.admin allow
 add_principal identifier.license:XXXXXXXX group.admin
 ```

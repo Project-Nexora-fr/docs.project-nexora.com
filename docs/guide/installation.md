@@ -13,7 +13,7 @@ Guide rapide pour faire tourner une base **Project Nexora** sur un serveur FiveM
 1. Place la resource dans `resources/[script]/` (ou ton dossier habituel).
 2. Ajoute dans `server.cfg` :
 
-```cfg
+```ini
 ensure oxmysql
 ensure stryke_pvp
 ```
@@ -25,7 +25,7 @@ ensure stryke_pvp
 
 ## Convars utiles (exemple)
 
-```cfg
+```ini
 # Bot Discord (allowlist / rôles) — ne mets jamais le token dans un fichier public
 setr stryke_discord_bot_token "TON_TOKEN"
 # Proxycheck (anti-VPN à la connexion)
