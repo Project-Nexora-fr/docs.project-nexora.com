@@ -1,5 +1,7 @@
 # Installation complète — base STRYKE PvP
 
+![Icône installation](/img/icon-install.png)
+
 ![Schéma d’installation](/img/install-flow.png)
 
 Guide bout-en-bout pour la base **FiveMBasicServerCFXDefault** (Project Nexora / STRYKE) : toutes les resources assurées dans `server.cfg`.
