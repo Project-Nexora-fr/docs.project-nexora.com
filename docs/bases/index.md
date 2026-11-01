@@ -1,14 +1,7 @@
 # Bases
 
-Une **base** est une resource (ou un pack) qui porte le gameplay principal du serveur.
+| Base | Doc |
+|------|-----|
+| **stryke_pvp** | [Documentation complète](/bases/stryke-pvp/) |
 
-| Base | Statut | Description |
-|------|--------|-------------|
-| [stryke_pvp](/bases/stryke-pvp/) | Disponible | Freeroam PvP — zones, KOTH, events, VIP, battle pass, mini-jeux |
-| Autres bases | Bientôt | RP / hybrides Nexora à documenter ici |
-
-## Ajouter une base à cette doc
-
-1. Crée `docs/bases/<slug>/` avec `index.md` + pages dédiées.
-2. Ajoute l’entrée dans la sidebar (`.vitepress/config.ts`).
-3. Mets à jour ce tableau.
+Toute l’installation et les resources du pack PvP sont sous **stryke_pvp**.

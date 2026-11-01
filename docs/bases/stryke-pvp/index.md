@@ -1,31 +1,34 @@
 # stryke_pvp
 
-Base **freeroam PvP** : zones safe / AFK / PvP / loot, KOTH, events aléatoires, inventaire, VIP, battle pass, mini-jeux, menu F1, connexion (queue / allowlist).
+![Bannière STRYKE PvP](/img/hero-stryke-pvp.png)
 
-## Pour qui
+Base **freeroam PvP** Project Nexora : zones safe / AFK / PvP / loot, KOTH, events, VIP, battle pass, mini-jeux, menu F1, connexion (queue / allowlist).
 
-- Serveurs PvP ranked / freeroam
-- Staff qui configure Discord, économie et zones
-- Développeurs qui branchent d’autres resources via **exports** et events sécurisés
+Toute la documentation de la base (installation serveur, `server.cfg`, dépendances, assets, scripts) est **ici**, sous `/bases/stryke-pvp/`.
 
-## Parcours recommandé
+## Démarrer
 
-1. [Installation](./installation)
-2. [Configuration](./configuration) (`config.easy.lua` d’abord)
-3. [Discord & webhooks](./discord-webhooks)
-4. [Anti-cheat & exports](./anticheat-exports)
-5. [Zones & events](./zones-events)
+1. [Installation complète](./installation) — ordre des resources, MySQL, ACE
+2. [server.cfg](./server-cfg) — `ensure`, convars, permissions
+3. [Configuration](./configuration) — `config.easy.lua` puis avancé
+4. [Discord & webhooks](./discord-webhooks)
 
-## Dépendances
+## Pack resources de la base
 
-- `oxmysql`
-- Resource démarrée **avant** les scripts qui appellent les exports `stryke_pvp`
+| Resource | Rôle | Doc |
+|----------|------|-----|
+| `oxmysql` | MySQL | [fiche](./oxmysql) |
+| `bob74_ipl` | Intérieurs GTA | [fiche](./bob74-ipl) |
+| `spawnmanager` / `chat` | Spawn + chat CFX | [fiche](./spawnmanager-chat) |
+| `stryke_loadingscreen` | Écran de chargement | [fiche](./loadingscreen) |
+| `stryke_pvp` | Gamemode | cette section |
+| `rpemotes-reborn` | Emotes | [fiche](./rpemotes) |
+| `stryke_vehicles` | Véhicules addon | [fiche](./vehicles) |
+| `stryke_weapon_metas` | Metas armes | [fiche](./weapon-metas) |
+| `stryke_ymap` | Mapping / ymap | [fiche](./ymap) |
+| `weapon_ka_pn_diamant` | Arme custom | [fiche](./weapon-diamant) |
 
-## Structure (aperçu)
+## API / staff
 
-```
-stryke_pvp/
-  shared/config.easy.lua   ← débutant
-  shared/config.lua        ← avancé
-  client/ · server/ · html/
-```
+- [Anti-cheat & exports](./anticheat-exports)
+- [Zones & events](./zones-events)

@@ -3,31 +3,30 @@ layout: home
 
 hero:
   name: Project Nexora
-  text: Documentation FiveM
-  tagline: Bases, scripts et maps — une doc claire pour installer et configurer sans se perdre.
+  text: Base STRYKE PvP
+  tagline: Documentation complète — installation, server.cfg, toutes les resources du pack.
+  image:
+    src: /img/hero-stryke-pvp.png
+    alt: STRYKE PvP
   actions:
     - theme: brand
-      text: Commencer
-      link: /guide/installation
-    - theme: alt
-      text: Base stryke_pvp
+      text: Doc stryke_pvp
       link: /bases/stryke-pvp/
+    - theme: alt
+      text: Installation
+      link: /bases/stryke-pvp/installation
 
 features:
-  - title: Bases
-    details: Frameworks / gamemodes complets (PvP freeroam, RP…). Commence par stryke_pvp.
-    link: /bases/
-    linkText: Voir les bases
-  - title: Scripts
-    details: Resources indépendantes (jobs, UI, utilitaires). Catalogue en construction.
-    link: /scripts/
-    linkText: Voir les scripts
-  - title: Maps
-    details: MLOs, mapping et assets monde. Section prévue pour les packs Nexora.
-    link: /maps/
-    linkText: Voir les maps
-  - title: Guides
-    details: Installation serveur, config.easy pour débutants, bonnes pratiques.
-    link: /guide/installation
-    linkText: Lire les guides
+  - title: Installation bout-en-bout
+    details: Ordre ensure, MySQL, ACE, checklist in-game.
+    link: /bases/stryke-pvp/installation
+    linkText: Installer
+  - title: Toutes les resources
+    details: oxmysql, bob74, loadingscreen, véhicules, metas, ymap, emotes…
+    link: /bases/stryke-pvp/
+    linkText: Voir le pack
+  - title: Config débutant
+    details: config.easy.lua — Discord, gains, VIP, connexion.
+    link: /bases/stryke-pvp/configuration
+    linkText: Configurer
 ---

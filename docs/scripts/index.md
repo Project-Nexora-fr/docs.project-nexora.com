@@ -1,12 +1,7 @@
 # Scripts
 
-Resources indépendantes (jobs, UI, bridges, utilitaires) publiées par Project Nexora.
+Les scripts du pack PvP sont documentés dans **stryke_pvp** :
 
-::: tip Bientôt
-Le catalogue scripts sera rempli au fur et à mesure des releases.  
-En attendant, regarde les [bases](/bases/) et les [guides](/guide/installation).
-:::
-
-| Script | Statut |
-|--------|--------|
-| — | Aucune fiche publique pour l’instant |
+- [stryke_loadingscreen](/bases/stryke-pvp/loadingscreen)
+- [rpemotes-reborn](/bases/stryke-pvp/rpemotes)
+- [Installation pack](/bases/stryke-pvp/installation)
