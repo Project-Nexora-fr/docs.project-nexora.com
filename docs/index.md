@@ -3,27 +3,27 @@ layout: home
 
 hero:
   name: Project Nexora
-  text: Base STRYKE PvP
-  tagline: Documentation complète — installation, server.cfg, toutes les resources du pack.
+  text: Documentation STRYKE PvP
+  tagline: Présentation type release Cfx — config, Discord, anti-cheat et zones.
   actions:
     - theme: brand
-      text: Doc stryke_pvp
+      text: Présentation stryke_pvp
       link: /bases/stryke-pvp/
     - theme: alt
-      text: Installation
-      link: /bases/stryke-pvp/installation
+      text: Discord
+      link: https://discord.gg/WTZYH4G6cg
 
 features:
-  - title: Installation bout-en-bout
-    details: Ordre ensure, MySQL, ACE, checklist in-game.
-    link: /bases/stryke-pvp/installation
-    linkText: Installer
-  - title: Toutes les resources
-    details: oxmysql, bob74, loadingscreen, véhicules, metas, ymap, emotes…
+  - title: Présentation
+    details: Fiche resource style post Cfx.re — features, deps, liens.
     link: /bases/stryke-pvp/
-    linkText: Voir le pack
-  - title: Config débutant
-    details: config.easy.lua — Discord, gains, VIP, connexion.
+    linkText: Lire
+  - title: Configuration
+    details: config.easy.lua pour démarrer sans se perdre.
     link: /bases/stryke-pvp/configuration
     linkText: Configurer
+  - title: Communauté
+    details: Support et annonces sur Discord.
+    link: https://discord.gg/WTZYH4G6cg
+    linkText: Rejoindre
 ---

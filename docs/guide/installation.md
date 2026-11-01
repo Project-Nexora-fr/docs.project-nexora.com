@@ -1,7 +1,7 @@
-# Installation serveur
+# Installation
 
-La doc d’installation complète de la base PvP est centralisée ici :
+La fiche resource et la configuration sont ici :
 
-**→ [Installation complète stryke_pvp](/bases/stryke-pvp/installation)**
-
-Y compris `server.cfg`, MySQL, ACE et toutes les resources (`oxmysql`, assets, loadingscreen, emotes…).
+**→ [Présentation stryke_pvp](/bases/stryke-pvp/)**  
+**→ [Configuration](/bases/stryke-pvp/configuration)**  
+**→ [Config facile](/guide/config-easy)**

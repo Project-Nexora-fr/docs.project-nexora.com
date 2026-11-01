@@ -1,34 +1,61 @@
-# stryke_pvp
+---
+title: '[STANDALONE] STRYKE PvP — Freeroam Ranked'
+---
 
-![Bannière STRYKE PvP](/img/banner-connecting-stryke.png)
+# [STANDALONE] STRYKE PvP — Freeroam Ranked
 
-Base **freeroam PvP** Project Nexora : zones safe / AFK / PvP / loot, KOTH, events, VIP, battle pass, mini-jeux, menu F1, connexion (queue / allowlist).
+![STRYKE PvP](/img/banner-connecting-stryke.png)
 
-Toute la documentation de la base (installation serveur, `server.cfg`, dépendances, assets, scripts) est **ici**, sous `/bases/stryke-pvp/`.
+::: tip Release
+**Project Nexora** · Base freeroam PvP · Documentation officielle
+:::
 
-## Démarrer
+## Preview
 
-1. [Installation complète](./installation) — ordre des resources, MySQL, ACE
-2. [server.cfg](./server-cfg) — `ensure`, convars, permissions
-3. [Configuration](./configuration) — `config.easy.lua` puis avancé
-4. [Discord & webhooks](./discord-webhooks)
+![Banner détail](/img/banner-detail-stryke.png)
 
-## Pack resources de la base
+## Description
 
-| Resource | Rôle | Doc |
-|----------|------|-----|
-| `oxmysql` | MySQL | [fiche](./oxmysql) |
-| `bob74_ipl` | Intérieurs GTA | [fiche](./bob74-ipl) |
-| `spawnmanager` / `chat` | Spawn + chat CFX | [fiche](./spawnmanager-chat) |
-| `stryke_loadingscreen` | Écran de chargement | [fiche](./loadingscreen) |
-| `stryke_pvp` | Gamemode | cette section |
-| `rpemotes-reborn` | Emotes | [fiche](./rpemotes) |
-| `stryke_vehicles` | Véhicules addon | [fiche](./vehicles) |
-| `stryke_weapon_metas` | Metas armes | [fiche](./weapon-metas) |
-| `stryke_ymap` | Mapping / ymap | [fiche](./ymap) |
-| `weapon_ka_pn_diamant` | Arme custom | [fiche](./weapon-diamant) |
+**stryke_pvp** est une base **freeroam PvP** complète pour FiveM : zones safe / AFK / PvP / loot, KOTH, events aléatoires, inventaire, VIP, battle pass, mini-jeux, menu F1, file d’attente et allowlist à la connexion.
 
-## API / staff
+Pensée pour un serveur compétitif FR (ranked, redzone, airdrops) avec une config débutant séparée (`config.easy.lua`).
 
-- [Anti-cheat & exports](./anticheat-exports)
-- [Zones & events](./zones-events)
+## Features
+
+- Zones safe, AFK, PvP, loot + markers optimisés
+- King of the Hill & events map (airdrops, convoi, zone temp…)
+- Économie cash + monnaie premium (StryCore) / boutique VIP
+- Battle pass, primes (bounty), équipes / duels
+- Hitmarker, gunfeel, killfeed Discord, rich presence
+- Anti-cheat (tokens session + events sécurisés) + exports publics
+- Connexion Adaptive Cards, queue, allowlist Discord, check VPN
+- Config facile pour démarrer sans toucher à l’avancé
+
+## Dependencies
+
+| Resource | Requis |
+|----------|--------|
+| `oxmysql` | Oui |
+| OneSync | Recommandé |
+
+## Documentation
+
+| Page | Contenu |
+|------|---------|
+| [Configuration](./configuration) | `config.easy.lua` + avancé |
+| [Discord & webhooks](./discord-webhooks) | Killfeed, staff, FiveManage |
+| [Anti-cheat & exports](./anticheat-exports) | Tokens, `TriggerSecure`, API |
+| [Zones & events](./zones-events) | KOTH, loot, bounty |
+
+## Links
+
+- [Discord Project Nexora](https://discord.gg/WTZYH4G6cg)
+- [GitHub org](https://github.com/Project-Nexora-fr)
+
+## Support
+
+Besoin d’aide ou d’un report de bug ? Rejoins le Discord et ouvre un ticket / salon support.
+
+---
+
+*Style présentation type release Cfx.re — documentation Project Nexora.*

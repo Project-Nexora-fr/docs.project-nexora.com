@@ -24,6 +24,11 @@
   border-radius: 10px;
 }
 
+/* Présentation style release Cfx */
+.vp-doc .tip.custom-block {
+  border-left-color: var(--vp-c-brand-1);
+}
+
 /* Bannières doc : pas de PNG 1024×1024 géant */
 .vp-doc img {
   border-radius: 10px;
